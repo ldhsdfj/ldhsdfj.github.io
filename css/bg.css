@@ -1,0 +1,23 @@
+/* 文章页背景 */
+.layout_post>#post {
+    /* 以下代表白色透明度为0.3 */
+    background: rgba(255,255,255,0);
+}
+/* 所有背景（包括首页卡片、文章页、页面页等） */
+#aside_content 
+.card-widget, 
+#recent-posts>.recent-post-item, 
+.layout_page>div:first-child:not(.recent-posts), 
+.layout_post>#page, .layout_post>#post, .read-mode 
+.layout_post>#post{
+    /* 以下代表白色透明度为0.3 */
+    background: rgba(255,255,255,.3);
+}
+#body-wrap {
+    /* 背景图像的地址（url括号里）  */
+    background: url(https://tse1-mm.cn.bing.net/th/id/R-C.99b06ad5e57bc3b44891a07903eb4e9a?rik=H5gw5w2ExmToGg&riu=http%3a%2f%2fwww.kutoo8.com%2fupload%2fimage%2f35162442%2f20170818008.jpg&ehk=21GD97LTamo%2fCnrVCYLyUA1I6TspvUfcMrCl3N4E21E%3d&risl=&pid=ImgRaw&r=0);
+    /* 背景图像不重复 */
+    background-repeat: no-repeat;
+    /* 背景图像大小 */
+    background-size: cover;
+}
