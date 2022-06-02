@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>vue-router</title>
+      <link href="/2022/06/02/vue%E8%B7%AF%E7%94%B1/"/>
+      <url>/2022/06/02/vue%E8%B7%AF%E7%94%B1/</url>
+      
+        <content type="html"><![CDATA[<h2 id="vue路由"><a href="#vue路由" class="headerlink" title="vue路由"></a>vue路由</h2><h3 id="安装插件-npm-i-vue-router"><a href="#安装插件-npm-i-vue-router" class="headerlink" title="安装插件 npm i vue-router@"></a>安装插件 npm i vue-router@</h3>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Vue事件总线</title>
       <link href="/2022/05/26/vue%E4%BA%8B%E4%BB%B6%E6%80%BB%E7%BA%BF/"/>
       <url>/2022/05/26/vue%E4%BA%8B%E4%BB%B6%E6%80%BB%E7%BA%BF/</url>
@@ -30,6 +43,12 @@
         <content type="html"><![CDATA[<h1 id="HEXO-搭建blog"><a href="#HEXO-搭建blog" class="headerlink" title="HEXO 搭建blog"></a>HEXO 搭建blog</h1><h2 id="1安装hexo-首先需要拥有node-js"><a href="#1安装hexo-首先需要拥有node-js" class="headerlink" title="1安装hexo(首先需要拥有node.js)"></a>1安装hexo(首先需要拥有node.js)</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g </span><br></pre></td></tr></table></figure><h2 id="1-1-新建一个文件夹打开Gei-Bash-Here-输入以下命令初始化文件"><a href="#1-1-新建一个文件夹打开Gei-Bash-Here-输入以下命令初始化文件" class="headerlink" title="1.1 新建一个文件夹打开Gei Bash Here 输入以下命令初始化文件"></a>1.1 新建一个文件夹打开Gei Bash Here 输入以下命令初始化文件</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 查看版本</span><br><span class="line">hexo -v</span><br><span class="line"># 初始化</span><br><span class="line">hexo init</span><br></pre></td></tr></table></figure><h2 id="1-2-开启本地服务"><a href="#1-2-开启本地服务" class="headerlink" title="1.2 开启本地服务"></a>1.2 开启本地服务</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>此时Gits Bash Here 上会出现一个本地链接点击即可进入blog首页</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable constant_">INFO</span>  <span class="title class_">Start</span> processing</span><br><span class="line"><span class="variable constant_">INFO</span>  <span class="title class_">Hexo</span> is running at <span class="attr">http</span>:<span class="comment">//localhost:4000 . Press Ctrl+C to stop.</span></span><br></pre></td></tr></table></figure><h1 id="2-Geiee-Gehub-上部署Blog"><a href="#2-Geiee-Gehub-上部署Blog" class="headerlink" title="2 Geiee /Gehub 上部署Blog"></a>2 Geiee /Gehub 上部署Blog</h1><h2 id="2-1-本地找到blog文件的config-yml文件-打开修改参数"><a href="#2-1-本地找到blog文件的config-yml文件-打开修改参数" class="headerlink" title="2.1 本地找到blog文件的config._yml文件 打开修改参数"></a>2.1 本地找到blog文件的config._yml文件 打开修改参数</h2><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">type: &quot;git&quot; **类型**</span><br><span class="line">repo: &quot;getee/github&quot; **地址**</span><br><span class="line">branch: &quot;master&quot; **分支**</span><br></pre></td></tr></table></figure><h2 id="2-2"><a href="#2-2" class="headerlink" title="2.2"></a>2.2</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#生成静态文件 部署到git </span><br><span class="line">hexo g</span><br></pre></td></tr></table></figure>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
       
     </entry>
     
